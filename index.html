@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hato Mayor | Vino de Honduras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header moderno con glassmorphism -->
+    <header id="header">
+      <a href="#" class="logo">
+        <img src="/img/logo.jpg" alt="" srcset=""> 
+        Hato Mayor
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#vinos">Vinos</a></li>
+          <li><a href="#sobre-nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero section con video background -->
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <h1>Nos tomamos el tiempo para que usted tome un buen vino.</h1>
+        <p>
+          Selección exclusiva de los mejores viñedos del mundo, curada por
+          nuestros expertos sommeliers
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center">
+          <a href="#vinos" class="btn btn-primary"
+            >Explorar vinos <i class="fas fa-arrow-right"></i
+          ></a>
+          <a href="#sobre-nosotros" class="btn btn-secondary">Conócenos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de vinos destacados -->
+    <section id="vinos">
+      <div class="section-header">
+        <h2 class="section-title">Nuestra Selección Premium</h2>
+        <p class="section-subtitle">
+          Descubre nuestros vinos más exclusivos, seleccionados meticulosamente
+          para los paladares más exigentes
+        </p>
+      </div>
+
+      <div class="wine-grid">
+        <!-- Vino 1 -->
+        <div class="wine-card">
+          <div class="wine-img-container">
+            <img
+              src="https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt="Vino Tinto Reserva"
+              class="wine-img"
+            />
+          </div>
+          <div class="wine-info">
+            <span class="wine-category">Tinto Reserva</span>
+            <h3 class="wine-name">Château Lafite Rothschild 2015</h3>
+            <span class="wine-region">Pauillac, Francia</span>
+            <p class="wine-description">
+              Uno de los vinos más prestigiosos del mundo, con aromas complejos
+              de cassis, grafito y elegantes notas florales.
+            </p>
+            <div class="wine-footer">
+              <span class="wine-price">€899.00</span>
+              <span class="wine-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vino 2 -->
+        <div class="wine-card">
+          <div class="wine-img-container">
+            <img
+              src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt="Vino Blanco"
+              class="wine-img"
+            />
+          </div>
+          <div class="wine-info">
+            <span class="wine-category">Blanco Fermentado en Barrica</span>
+            <h3 class="wine-name">Domaine Leflaive Montrachet 2018</h3>
+            <span class="wine-region">Borgoña, Francia</span>
+            <p class="wine-description">
+              El pinot noir blanco más legendario, con increíble profundidad y
+              notas de frutos secos, miel y mineralidad.
+            </p>
+            <div class="wine-footer">
+              <span class="wine-price">€1,250.00</span>
+              <span class="wine-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vino 3 -->
+        <div class="wine-card">
+          <div class="wine-img-container">
+            <img
+              src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="Vino Rosado"
+              class="wine-img"
+            />
+          </div>
+          <div class="wine-info">
+            <span class="wine-category">Rosado Premium</span>
+            <h3 class="wine-name">Château d'Esclans Garrus 2020</h3>
+            <span class="wine-region">Provence, Francia</span>
+            <p class="wine-description">
+              El rosado más exclusivo del mundo, con increíble complejidad
+              aromática y una textura sedosa inigualable.
+            </p>
+            <div class="wine-footer">
+              <span class="wine-price">€189.00</span>
+              <span class="wine-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección "Sobre nosotros" -->
+    <section class="about" id="sobre-nosotros">
+      <div class="about-container container">
+        <div class="about-content">
+          <h2 class="section-title">Nuestra Pasión por el Vino</h2>
+          <p>
+            Fundada en 1995, Vinum Aurea nació de un profundo amor por los vinos
+            excepcionales y el deseo de compartir estas joyas líquidas con
+            conocedores alrededor del mundo.
+          </p>
+          <p>
+            Nuestro equipo de expertos sommeliers viaja constantemente a las
+            regiones vinícolas más prestigiosas para descubrir pequeñas
+            producciones y vinos de culto que rara vez están disponibles en el
+            mercado.
+          </p>
+          <p>
+            Cada botella en nuestra colección cuenta una historia única de
+            terroir, tradición y artesanía vitivinícola.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number">28</div>
+              <div class="stat-label">Años de experiencia</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">150+</div>
+              <div class="stat-label">Viñedos exclusivos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">10K</div>
+              <div class="stat-label">Clientes satisfechos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img src="/img/img.jpeg" alt="Bodega de vinos" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials" id="testimonios">
+      <div class="section-header">
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <p class="section-subtitle">
+          Testimonios de conocedores y amantes del vino
+        </p>
+      </div>
+
+      <div class="testimonial-slider">
+        <div class="testimonial-card">
+          <img
+            src="https://randomuser.me/api/portraits/women/45.jpg"
+            alt="Cliente satisfecho"
+            class="testimonial-avatar"
+          />
+          <p class="testimonial-quote">
+            La selección de vinos de Vinum Aurea es simplemente impresionante.
+            Cada botella que he comprado ha superado mis expectativas.
+          </p>
+          <div class="testimonial-author">María González</div>
+          <span class="testimonial-role">Enóloga, Bodegas Marqués</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+      <div class="footer-grid container">
+        <div class="footer-about">
+          <a href="#" class="footer-logo">
+            <i class="fas fa-wine-glass-alt"></i>
+            Hato Mayor
+          </a>
+          <p>
+            Especialistas en vinos premium de las regiones más exclusivas del
+            mundo. Calidad, tradición y pasión en cada botella.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Enlaces rápidos</h3>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#vinos">Nuestros vinos</a></li>
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Tienda online</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Calle del Vino, 123, 28001
+            Madrid
+          </p>
+          <p><i class="fas fa-phone-alt"></i> +34 910 123 456</p>
+          <p><i class="fas fa-envelope"></i> info@vinumaurea.com</p>
+          <p><i class="fas fa-clock"></i> Lunes-Viernes: 10:00-20:00</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Hato Mayor. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
