@@ -212,9 +212,7 @@ nav a:hover {
     animation: fadeInUp 1s ease 0.2s forwards;
     opacity: 0;
 }
-.hero-dev{
-    display: flex; gap:1rem; justify-content:center;
-}
+
 /* Botones modernos con microinteracciones */
 .btn {
     display: inline-flex;
