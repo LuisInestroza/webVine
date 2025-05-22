@@ -574,6 +574,8 @@ footer {
     font-weight: 700;
     margin-bottom: 1rem;
     display: inline-block;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-about p {
