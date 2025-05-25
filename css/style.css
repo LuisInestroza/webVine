@@ -403,6 +403,61 @@ section {
     font-size: 0.9rem;
 }
 
+/*boton*/
+.wine-info .bottom-viewVine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+.wine-info .vine-cta a {
+    text-decoration: none;
+    position: relative;
+    padding: 0.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.wine-info .vine-cta a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gold-primary);
+    transition: width 0.3s ease;
+}
+
+.wine-info .vine-cta a:hover::after {
+    width: 100%;
+}
+
+.wine-info .vine-cta a:hover {
+    color: var(--gold-primary);
+}
+
+.vine-cta {
+    text-decoration: none;
+    background: var(--gold-primary);
+    color: var(--wine-primary) !important;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--radius-full);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.vine-cta:hover {
+    background: var(--gold-secondary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.vine-cta::after {
+    display: none;
+}
+
+
 /* Sección "Sobre nosotros" moderna */
 .about {
     background: linear-gradient(135deg, var(--wine-primary) 0%, var(--wine-secondary) 100%);
@@ -720,6 +775,7 @@ footer {
     .newsletter-input, .btn {
         width: 100%;
     }
+   
 }
 
 @media (max-width: 576px) {

@@ -29,7 +29,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 // Simple animation on scroll
 const animateOnScroll = function () {
   const elements = document.querySelectorAll(
-    ".section-title, .wine-card, .about-content, .testimonial-card"
+    ".section-title, .wine-card, .about-content, .about-content-catalogo, .testimonial-card"
   );
 
   elements.forEach((element) => {
@@ -45,7 +45,9 @@ const animateOnScroll = function () {
 
 // Set initial state for animated elements
 document
-  .querySelectorAll(".wine-card, .about-content, .testimonial-card")
+  .querySelectorAll(
+    ".wine-card, .about-content,.about-content-catalogo,.about-content-catalogo,.testimonial-card"
+  )
   .forEach((el) => {
     el.style.opacity = "0";
     el.style.transform = "translateY(30px)";
