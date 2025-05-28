@@ -15,24 +15,34 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleheader.css">
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
     
   </head>
   <body>
     <!-- Header moderno con glassmorphism -->
     <header id="header">
-      <a href="#" class="logo">
+      <a href="#inicio" class="logo">
         <img src="img/logo.jpg" alt="" srcset=""> 
         Hato Mayor
       </a>
 
+      <!-- Botón de menú móvil -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+
       <nav>
-        <ul>
+        <ul id="navMenu">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#vinos">Vinos</a></li>
           <li><a href="#sobre-nosotros">Nosotros</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
+        <!-- Botón para cerrar el menú (solo visible en móvil) -->
+        <button class="close-menu-btn" id="closeMenuBtn" >
+          <i class="fas fa-times"></i>
+        </button>
       </nav>
     </header>
 
@@ -313,5 +323,6 @@
       </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/scriptHeader.js"></script>
   </body>
 </html>
