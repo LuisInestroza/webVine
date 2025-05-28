@@ -750,7 +750,12 @@ footer {
     header {
         padding: 1rem 5%;
     }
-    
+    .logo{
+        font-size: 1.5rem;
+    }
+    .logo img{
+        margin: 0px;
+    }
     nav ul {
         display: none;
     }

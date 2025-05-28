@@ -40,6 +40,9 @@
             /* Mostrar botón de menú en móvil */
             .mobile-menu-btn {
                 display: block;
+                position: absolute;
+                right: 0;
+                padding: 0.8rem 5%;
             }
             
             /* Ocultar botón de menú cuando el menú está activo */
