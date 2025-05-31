@@ -15,16 +15,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/styleCatalogo.css">
-    <link rel="stylesheet" href="css/styleheader.css">
+    <link rel="stylesheet" href="css/styleheader.css" />
+    <link rel="stylesheet" href="css/styleCatalogo.css" />
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
-    
   </head>
   <body>
     <!-- Header moderno con glassmorphism -->
-    <header id="header" style="background: rgba(90, 26, 38, 0.95); position: sticky;">
-      <a href="index.html" class="logo">
-        <img src="img/logo.jpg" alt="" srcset=""> 
+    <header id="header" style="background: rgba(90, 26, 38, 0.95)">
+      <a href="index.html#inicio" class="logo">
+        <img src="img/logo.jpg" alt="" srcset="" />
         Hato Mayor
       </a>
 
@@ -35,54 +34,117 @@
 
       <nav>
         <ul id="navMenu">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="index.html#vinos">Vinos</a></li>
-          <li><a href="index.html#sobre-nosotros">Nosotros</a></li>
-          <li><a href="index.html#contacto">Contacto</a></li>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="#vinos">Vinos</a></li>
+          <li><a href="#sobre-nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
         <!-- Botón para cerrar el menú (solo visible en móvil) -->
-        <button class="close-menu-btn" id="closeMenuBtn" >
+        <button class="close-menu-btn" id="closeMenuBtn">
           <i class="fas fa-times"></i>
         </button>
       </nav>
     </header>
 
-    
-    <!-- Sección "Sobre nosotros" -->
-    <section class="about-catalogo" id="sobre-nosotros">
-      <div class="about-container-catalogo container">
-        <div class="about-content-catalogo">
-          <h2 class="section-title">Vino Seco de Naranja</h2>
-          <p>
-            <h2>Aspectos Visuales</h2> <br>
-            Vino claro, color oro, con una concentración media\alta y lágrimas densas.
-          </p>
-          <p>
-            <h2>Aromas</h2><br>
-            Frutas cítricas y tropicales en condición fresca; piña, manzana amarilla, melón, aromas florales a flor de limón, margaritas, herbáceas a romero y tomillo y vegétales a pimiento verde. 
-          </p>
-          <p>
-            <h2>Paladar</h2><br>
-            Un vino con textura aterciopelada leve, cuerpo abundante que desaparece con sutileza, su característica predominante es su acidez brillante y refrescante que crea un perfecto contraste con el cuerpo. Sensación a frutos tropicales y cítricos que crean sensaciones refrescantes y nectarinas.
-          </p>
-          <p>
-            <h2>Maridajes</h2><br>
-            Ensalada Cesar, camarones al ajillo, langosta a la termidor, pollo asado, pavo, jamones y quesos, pasta Alfredo.
-          </p>
-          <p>
-            <h2>Temperatura de Servicio Sugerida</h2><br>
-            Entre 8\10 centígrados.
-          </p>
-          
-          
-          
+    <!-- Hero section para detalle de producto -->
+    <section class="product-hero">
+      <div class="product-image-container">
+        <img
+          src="img/catalogoProductos/vinoSecoNaranja.jpeg"
+          alt="Don Alejandro - Vino Tinto Reserva"
+          class="product-image"
+        />
+        <span class="product-badge">Reserva Especial</span>
       </div>
-      <div class="about-image-catalogo">
-        <img src="img/vinos/vinoSecoNaranja.jpg" alt="Bodega de vinos" />
+
+      <div class="product-info">
+        <h1 class="product-title">Vino Seco de Naranja</h1>
+        <h2 class="product-subtitle">MYRBIARIA CAULIELBRA</h2>
+
+        <p class="product-description">
+          El vino es dulce, de acidez media, con notas de jaboticaba (Myrciaia
+          cauliflota). Se perciben notas de cereza, mora negra y ciruela negra,
+          con una fruta madura casi confiturada. Los taninos son medios y el
+          cuerpo también. Baja sensación fenólica con un paladar redondo.
+        </p>
+
+        <div class="product-details">
+          <div class="detail-item">
+            <span class="detail-label">Aspectos Visuales:</span>
+            <span class="detail-value">Vino claro, color oro, con una concentración media\alta y lágrimas densas.</span
+            >
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Aspectos Aromáticos:</span>
+            <span class="detail-value"
+              >Frutas cítricas y tropicales en condición fresca; piña, manzana amarilla, melón, aromas florales a flor de limón, margaritas, herbáceas a romero y tomillo y vegétales a pimiento verde. </span
+            >
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Paladar:</span>
+            <span class="detail-value"
+              >Un vino con textura aterciopelada leve, cuerpo abundante que desaparece con sutileza, su característica predominante es su acidez brillante y refrescante que crea un perfecto contraste con el cuerpo. Sensación a frutos tropicales y cítricos que crean sensaciones refrescantes y nectarinas.</span
+            >
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Maridajes:</span>
+            <span class="detail-value"
+              >Ensalada Cesar, camarones al ajillo, langosta a la termidor, pollo asado, pavo, jamones y quesos, pasta Alfredo.</span
+            >
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Temperatura de Servicio Sugerida:</span>
+            <span class="detail-value">Entre 8\10 centígrados</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    
+    <!-- Sección de características -->
+    <section class="product-features">
+      <div class="section-header">
+        <h2 class="section-title">Características Exclusivas</h2>
+        <p class="section-subtitle">
+          Descubre lo que hace especial al Don Alejandro
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-wine-bottle"></i>
+          </div>
+          <h3 class="feature-title">Elaboración Artesanal</h3>
+          <p>
+            Producido con métodos tradicionales y atención al detalle en cada
+            etapa del proceso, desde la vendimia hasta el embotellado.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3 class="feature-title">Uvas Seleccionadas</h3>
+          <p>
+            Las uvas son cuidadosamente seleccionadas a mano de viñedos con más
+            de 30 años de antigüedad, asegurando la máxima calidad.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3 class="feature-title">Premios Internacionales</h3>
+          <p>
+            Galardonado con medalla de oro en el International Wine Challenge
+            2022 y 92 puntos en Wine Spectator.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer id="contacto">
       <div class="footer-grid container">
@@ -91,13 +153,10 @@
             <i class="fas fa-wine-glass-alt"></i>
             Hato Mayor
           </a>
-          <p>
-            "Nos tomamos el tiempo para que usted tome un buen vino."
-          </p>
+          <p>"Nos tomamos el tiempo para que usted tome un buen vino."</p>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            
           </div>
         </div>
 
@@ -114,10 +173,7 @@
 
         <div class="footer-contact">
           <h3>Contacto</h3>
-          <p>
-            <i class="fas fa-map-marker-alt"></i>Siguatepeque, Comayagua
-            
-          </p>
+          <p><i class="fas fa-map-marker-alt"></i>Siguatepeque, Comayagua</p>
           <p><i class="fas fa-phone-alt"></i> +34 910 123 456</p>
           <p><i class="fas fa-envelope"></i> info@vinumaurea.com</p>
           <p><i class="fas fa-clock"></i> Lunes-Viernes: 10:00-20:00</p>
