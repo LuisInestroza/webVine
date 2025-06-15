@@ -347,12 +347,17 @@ section {
 }
 
 .wine-img {
-  width: 100%;
+  /* width: 50%; */
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-
+.wine-img-container img{
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
 .wine-card:hover .wine-img {
   transform: scale(1.05);
 }
