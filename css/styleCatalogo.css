@@ -164,6 +164,22 @@
   color: var(--wine-primary);
 }
 
+/*Premios de vinos*/
+
+.img-premio-container img{
+  display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.img-premio{
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
 /* Responsive design */
 @media (max-width: 992px) {
   .product-hero {
