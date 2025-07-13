@@ -165,7 +165,9 @@
 }
 
 /*Premios de vinos*/
-
+.gridUniq{
+  margin: 0 15em;
+}
 .img-premio-container img{
   display: block;
     margin: auto;
@@ -185,6 +187,9 @@
   .product-hero {
     grid-template-columns: 1fr;
     padding-top: 8rem;
+  }
+  .gridUniq{
+    margin: auto;
   }
 }
 
@@ -207,6 +212,9 @@
   .product-info {
     padding: 1rem 0;
   }
+  .gridUniq{
+    margin: auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -222,4 +230,8 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+  .gridUniq{
+    margin: auto;
+  }
+  
 }
