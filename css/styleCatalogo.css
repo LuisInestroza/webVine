@@ -191,6 +191,7 @@
   .gridUniq{
     margin: auto;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -215,6 +216,8 @@
   .gridUniq{
     margin: auto;
   }
+
+ 
 }
 
 @media (max-width: 576px) {
@@ -235,3 +238,11 @@
   }
   
 }
+
+@media (max-width: 360px) {
+  .img-premio{
+    height: 270px;
+  }
+}
+
+
